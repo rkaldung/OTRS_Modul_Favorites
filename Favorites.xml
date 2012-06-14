@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<otrs_config version="1.0" init="Application">
+        <ConfigItem Name="Frontend::Module###AdminFavorites" Required="1" Valid="1">
+        <Description Translatable="1">Frontend module registration for the agent interface.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Frontend::Admin::ModuleRegistration</SubGroup>
+        <Setting>
+            <FrontendModuleReg>
+                <Group>admin</Group>
+                <Description>Erstellen und verwalten von Favorites</Description>
+                <Title Translatable="1">Favorites</Title>
+                <NavBarName>Admin</NavBarName>
+                <NavBarModule>
+                    <Module>Kernel::Output::HTML::NavBarModuleAdmin</Module>
+                    <Name Translatable="0">Favorites</Name>
+                    <Description Translatable="1">Erstellen und verwalten von Favorites</Description>
+                    <Block>System</Block>
+                    <Prio>100</Prio>
+                </NavBarModule>
+            </FrontendModuleReg>
+        </Setting>
+    </ConfigItem>
+
+
+</otrs_config>
+
