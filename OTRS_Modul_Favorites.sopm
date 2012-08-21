@@ -12,9 +12,9 @@
     <BuildDate>?</BuildDate>
     <BuildHost>?</BuildHost>
     <Filelist>
-        <File Permission="644" Location="Kernel/System/Auth/Sync/ConnectAD.pm"></File>
-        <File Permission="644" Location="Kernel/System/Auth/ConnectAD.pm"></File>
-        <File Permission="644" Location="Kernel/System/CustomerUser/ConnectAD.pm"></File>
-        <File Permission="644" Location="Kernel/System/CustomerAuth/ConnectAD.pm"></File>
+        <File Permission="644" Location="Kernel/System/AdminFavorites.pm"></File>
+        <File Permission="644" Location="Kernel/System/Favorites.pm"></File>
+        <File Permission="644" Location="Kernel/Config/Files/Favorites.xml"></File>
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/AdminFavorites.dtl"></File>
     </Filelist>
 </otrs_package>
