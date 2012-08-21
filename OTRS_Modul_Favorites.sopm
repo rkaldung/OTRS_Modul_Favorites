@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otrs_package version="1.0">
+    <Name>OTRS_Modul_Favorites</Name>
+    <Version>?</Version>
+    <Framework>?</Framework>
+    <Framework>?x</Framework>
+    <Framework>?</Framework>
+    <Vendor>David Lambauer</Vendor>
+    <URL>https://github.com/DavidLambauer/OTRS_Modul_Favorites</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="de">Ein Modul für OTRS zum Anzeigen und Verwalten von Favoriten im TicketZoom.</Description>
+    <BuildDate>?</BuildDate>
+    <BuildHost>?</BuildHost>
+    <Filelist>
+        <File Permission="644" Location="Kernel/System/Auth/Sync/ConnectAD.pm"></File>
+        <File Permission="644" Location="Kernel/System/Auth/ConnectAD.pm"></File>
+        <File Permission="644" Location="Kernel/System/CustomerUser/ConnectAD.pm"></File>
+        <File Permission="644" Location="Kernel/System/CustomerAuth/ConnectAD.pm"></File>
+    </Filelist>
+</otrs_package>
